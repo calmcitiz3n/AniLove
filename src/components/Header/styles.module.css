@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  box-shadow: 0 10px 8px rgba(34, 60, 80, 0.2);
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.links > * {
+  margin-right: 40px;
+  list-style-type: none;
+  color: #009688;
+  font-weight: 600;
+  font-size: px;
+  text-transform: uppercase;
+}
+.logo {
+  width: 120px;
+}

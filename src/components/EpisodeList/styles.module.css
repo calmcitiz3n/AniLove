@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1610px;
+  padding-bottom: 30px;
+}
+.block {
+  display: flex;
+  max-width: 1148px;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.grey {
+  color: #757575;
+}
+.block:last-child {
+  padding-bottom: 0;
+}

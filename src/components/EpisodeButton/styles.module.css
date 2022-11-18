@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1610px;
+  padding-bottom: 30px;
+}
+.button {
+  padding: 5px;
+}
